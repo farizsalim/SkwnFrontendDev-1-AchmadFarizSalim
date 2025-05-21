@@ -34,9 +34,9 @@ const Categories = ({ categories }) => {
             ))}
         </div>
         <div className="flex  md:items-start justify-center flex-row gap-2 md:flex-wrap md:w-3/5 mt-3">
-            <img src={selectedCategory.photo3} alt="Photo 3" className="md:w-[400px] w-[100px] md:h-[500px] h-[100px]  object-cover rounded" />
-            <img src={selectedCategory.photo2} alt="Photo 2" className="md:w-[150px] w-[100px] md:h-[500px] h-[100px]  object-cover rounded" />
             <img src={selectedCategory.photo1} alt="Photo 1" className="md:w-[150px] w-[100px] md:h-[500px] h-[100px]  object-cover rounded" />
+            <img src={selectedCategory.photo2} alt="Photo 2" className="md:w-[150px] w-[100px] md:h-[500px] h-[100px]  object-cover rounded" />
+            <img src={selectedCategory.photo3} alt="Photo 3" className="md:w-[400px] w-[100px] md:h-[500px] h-[100px]  object-cover rounded" />
         </div>
     </div>
   );
