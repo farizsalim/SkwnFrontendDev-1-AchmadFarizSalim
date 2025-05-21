@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+.body{
+    margin: 0;
+}
+
+.header_font{
+    color: #2F241F;
+    font-weight: 900;
+    font-size: 72px;
+}
+
+.unique_font{
+    color: #817253;
+}
+
+.input_hero{
+    background-color: #E5F0B6;
+}
+
+@media (max-width: 767px) {
+  .header_font {
+    font-weight: 900;
+    font-size: 52px;
+  }
+}
